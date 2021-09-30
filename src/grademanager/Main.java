@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("gui/GradeView.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Grade manager");
         primaryStage.setScene(new Scene(root, 320, 475));
         primaryStage.show();
     }
