@@ -31,7 +31,7 @@ public class GradeController implements Initializable
 
     public GradeController()
     {
-        gradeScale = GradeScaleFactory.getGradeScale(GradeScaleFactory.ECTS_SCALE);
+        gradeScale = GradeScaleFactory.getGradeScale(GradeScaleFactory.SEVEN_POINT_SCALE);
     }
 
     @Override
